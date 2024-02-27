@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+    "compilerOptions": { 
+      "outDir": "./out-tsc/app",
+      "types": []
+    },
+    "files": [
+      "src/main.ts",
+      "src/polyfills.ts"
+    ],
+    "include": [
+      "src/**/*.d.ts"
+    ]
+  }
+   27 changes: 20 additions & 7 deletions27  
